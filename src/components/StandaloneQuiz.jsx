@@ -159,33 +159,33 @@ export default function StandaloneQuiz({ onBack }) {
         // Min possible is 28
         
         if (score <= 40) return { 
-            range: "$8,000 – $10,500", 
-            tier: "The Essentials — Intimate",
+            range: "$12,000 – $14,000", 
+            tier: "Elegant — Intimate",
             message: "Your vision is beautifully focused. With cohesive florals and thoughtful details, Irene will bring your day to life with elegance and intention." 
         };
         if (score <= 55) return { 
-            range: "$10,500 – $13,500", 
-            tier: "The Essentials — Standard",
+            range: "$14,000 – $16,500", 
+            tier: "Elegant — Standard",
             message: "You want more than just flowers — you want a feeling. This tier gives Irene room to design a polished, layered experience your guests will remember." 
         };
         if (score <= 70) return { 
-            range: "$13,500 – $17,000", 
-            tier: "Elevated Essentials",
+            range: "$16,500 – $19,000", 
+            tier: "Elevated Elegant",
             message: "A perfect balance of scale and detail. We will design key focal moments while ensuring your guest tables feel lush and romantic." 
         };
         if (score <= 85) return { 
-            range: "$17,000 – $21,000", 
-            tier: "Custom Design — Moderate",
+            range: "$20,000 – $24,000", 
+            tier: "Design + Florals — Moderate",
             message: "Your wedding calls for custom artistry. Expect lush arrangements, curated rentals, and a design experience built around your unique vision." 
         };
         if (score <= 105) return { 
-            range: "$21,000 – $26,000", 
-            tier: "Custom Design — Lush",
+            range: "$24,000 – $29,000", 
+            tier: "Design + Florals — Lush",
             message: "This level unlocks a richer visual narrative — elevated florals, beautifully styled environments, and every tabletop detail considered." 
         };
         if (score <= 125) return { 
-            range: "$26,000 – $32,000", 
-            tier: "Custom Design — Abundant",
+            range: "$29,000 – $34,000", 
+            tier: "Design + Florals — Abundant",
             message: "You're dreaming big and beautifully. This tier supports immersive ceremony scenes and incredibly lush, textured reception environments." 
         };
         if (score <= 145) return { 
